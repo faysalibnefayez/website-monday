@@ -1,0 +1,88 @@
+body{
+    margin:0%;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{color:grey}
+
+.olive-fonts{
+    color: rgb(124, 67, 2);
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.first-part{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(230, 162, 17),rgb(150, 71, 6));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700px;
+}
+.special-menu{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius:10px;
+    height: 50%;
+    width: 38%;
+    padding:25px;
+    background-color: white;
+}
+.address{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+
+#corner{
+    margin-left: 0%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(255, 164, 122),rgb(255, 227, 71));
+    border-image-slice: 1;
+}
+#Chittagong{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(122, 255, 188),rgb(17, 84, 209));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+/* Align the Contact Area heading to the left */
+.address h2 {
+    text-align: left;
+    margin-left: 5%; /* Adjust margin as needed for spacing */
+}
+/* Align the "Contact Area" heading to the left */
+.address h2 {
+    text-align: left;
+}
